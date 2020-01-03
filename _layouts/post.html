@@ -47,7 +47,9 @@ layout: default
                 {{page.content}}
 
                 <hr>
-                
+                {% if site.comments %}
+                {% include comments.html %}
+                {% endif %}
                 
                  {% if page.previous %}
                   <span class="previous-link">

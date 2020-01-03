@@ -32,7 +32,7 @@ plugins:
   - jekyll-feed
 
 permalink: none
-
+comments: true
 defaults:
   -
     scope:

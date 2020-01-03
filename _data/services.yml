@@ -1,0 +1,31 @@
+- icon: "icon ion-coffee"
+  title: "Branding"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-compass"
+  title: "Web Design"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-image"
+  title: "App Design"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-bug"
+  title: "Start Up"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-headphone"
+  title: "Logo Design"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-leaf"
+  title: "Development"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-planet"
+  title: "Brand Identity"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-earth"
+  title: "Brand Identity"
+  conent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
