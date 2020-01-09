@@ -1,4 +1,4 @@
-     <!-- Service Start -->
+    <!-- Service Start -->
     <section id="service">
       <div class="container">
         <div class="row">
@@ -8,12 +8,12 @@
           </div>
         </div>
         <div class="row ">
-          {% for service in site.data.services %}
+         {% for service in site.data.services %}
           <div class="col-sm-6 col-md-3">
             <div class="service-item">
-              <i class="{{service.icon}}"></i>
-              <h4>{{service.title}}</h4>
-              <p>{{service.content}}</p>
+              <i class="{{ service.icon }}"></i>
+              <h4>{{ service.title }}</h4>
+              <p>{{ service.content }}</p>
             </div>
           </div>
           {% endfor %}

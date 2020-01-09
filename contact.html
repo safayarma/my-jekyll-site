@@ -2,75 +2,25 @@
 layout: default
 title: Contact
 ---
-        {% include subpage-header.html %}
+        
+        {% include subpage-header.html %} 
         <!-- contact form start -->
         <section id="contact-form">
           <div class="container">
-            <div class="row">
-              <form action="https://formspree.io/safayarma@gmail.com" method="POST">
-                <div class="col-md-6 col-sm-12">
-                <div class="block">
-                    <input type="hidden" name="_next" value="{{site.url}}/thanks.html"/>
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                      <input type="Email" name="Email" class="form-control" placeholder="Email Address">
-                    </div>
-                    <div class="form-group">
-                      <input type="text" name="Subject" class="form-control" placeholder="Subject">
-                    </div>
-                </div>
-                </form>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="block">
-                  <form>
-                    <div class="form-group-2">
-                      <textarea class="form-control" name="message" rows="3" placeholder="Your Message"></textarea>
-                    </div>
-                    <button class="btn btn-default" type="submit">Send Message</button>
-                  </form>
-                </div>
-              </div>
-            </div>
+            {% include contact-form.html %} 
             <div id="contact-box" class="row">
               <div class="col-md-6 col-sm-12">
                 <div class="block">
-                  {% include contact-info.html %}
-                  <ul class="social-icons">
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-google"></i></a>
-                    </li>
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-pinterest"></i></a>
-                    </li>
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-dribbble"></i></a>
-                    </li>
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="http://www.themefisher.com"><i class="fa fa-facebook"></i></a>
-                    </li>
-                  </ul>
+                    {% include contact-info.html %}
+                    {% include social-icons.html %}
                 </div>
               </div>
               <div class="col-md-6 col-sm-12">
                 <div class="block">
-                  <h2>We Also Count In Google Map</h2>
-                    <div class="google-map">
-                      <div id="map"></div>
-                    </div>
+                    {% include google-map.html %}
                 </div>
               </div>
             </div>
           </div>
         </section>
+        {% include call-to-action.html %}
